@@ -1,0 +1,40 @@
+Notes: "_notes":[{"_time":1,"_lineIndex":1,"_lineLayer":0,"_type":0,"_cutDirection":0},...]
+_lineIndex: 0-3; with 0 as leftmost lane and 3 as rightmost lane
+_lineLayer: 0-1; with 0 as bottom layer and 1 as top layer
+_type: 0; Left Saber // 1; Right Saber
+_cutDirection:
+    0; slash upwards
+    1; slash downwards
+    2; slash to the left
+    3; slash to the right
+    4; slash from bottom-right to top-left
+    5; slash from bottom-left to top-right
+    6; slash from top-right to bottom-left
+    7; slash from top-left to bottom-right
+    8; slash in any direction
+
+Lighting: "_events":[{"_time":1,"_type":0,"_value":3},...]
+_type:
+    0; Laser (Background; Floor to Ceiling)
+    _value:
+        1; Blue - Permanent
+        2; Red - Permanent
+        3; Blue - Fade Out
+        4; Red - Fade Out
+    1; Light (Ring)
+    _value:
+        1; Blue - Permanent
+        2; Red - Permanent
+        3; Blue - Fade Out
+        4; Red - Fade Out
+    2; Laser (Cross; Left-Blue)
+    _value: 0; to turn off
+    3; Laser (Cross; Right-Blue)
+    _value: 0; to turn off
+    4; Laser (Bottom)
+    _value: 0; to turn off
+    8; Turn Arches
+    _value:
+        0-3; Left ???
+        10-13; Right ???
+    9; Zoom
